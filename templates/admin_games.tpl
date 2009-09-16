@@ -3,7 +3,7 @@
 	{jstabs}
 		{jstab title="Games"}
 				<p>
-					{tr}Games with checkmarks are currently enabled, meaning they can be played, games without are disabled.  To enable or disable a game, check or uncheck it, and click the 'Modify Activation' button.{/tr}
+					{tr}Games with checkmarks are currently enabled, meaning they can be played, games without are disabled.  To enable or disable a game, check or uncheck it, and click the 'Change Preferences' button.{/tr}
 				</p>
 				{foreach key=name item=game from=$games}
 						<div class="row">
@@ -42,7 +42,7 @@
 		{/jstab}
 
 		<div class="row submit">
-			<input type="submit" name="games_settings" value="{tr}Change preferences{/tr}" />
+			<input type="submit" name="games_settings" value="{tr}Change Preferences{/tr}" />
 		</div>
 
 	{/jstabs}
