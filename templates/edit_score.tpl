@@ -2,20 +2,20 @@
 {if $gBitUser->isRegistered()}
 	<h3>{tr}Welcome Back{/tr}, {$gBitUser->getDisplayName()}</h3>
 {/if}
-<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae massa sapien, id porttitor quam. Pellentesque ultricies enim nec felis placerat dictum. Nam nibh eros, elementum eget auctor sit amet, aliquam a odio.</div>
+<div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae massa sapien, id porttitor quam. Pellentesque ultricies enim nec felis placerat dictum. Nam nibh eros, elementum eget auctor sit amet, aliquam a odio.</p></div>
 {form action="javascript:;" enctype="multipart/form-data" id="edit_score"}
 	{if !$gBitUser->isRegistered()}
 		<div class="row">
 			{formlabel label="Real name" for="real_name"}
 			{forminput}
-				<input type="text" name="real_name" id="real_name" value="{$smarty.request.real_name}" />
+				<input type="text" size="35" name="real_name" id="real_name" value="{$smarty.request.real_name}" />
 			{/forminput}
 		</div>
 		<div class="row">
 			{formfeedback error=$errors.email}
 			{formlabel label="Email" for="email"}
 			{forminput}
-				<input type="text" size="50" name="email" id="email" value="{$reg.email}" />{required}
+				<input type="text" size="35" name="email" id="email" value="{$reg.email}" />
 			{/forminput}
 		</div>
 	{/if}
