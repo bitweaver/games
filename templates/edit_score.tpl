@@ -8,14 +8,14 @@
 		<div class="row">
 			{formlabel label="Real name" for="real_name"}
 			{forminput}
-				<input type="text" size="35" name="real_name" id="real_name" value="{$smarty.request.real_name}" />
+				<input type="text" size="30" name="real_name" id="real_name" value="{$smarty.request.real_name}" />
 			{/forminput}
 		</div>
 		<div class="row">
 			{formfeedback error=$errors.email}
 			{formlabel label="Email" for="email"}
 			{forminput}
-				<input type="text" size="35" name="email" id="email" value="{$reg.email}" />
+				<input type="text" size="30" name="email" id="email" value="{$reg.email}" />
 			{/forminput}
 		</div>
 	{/if}
