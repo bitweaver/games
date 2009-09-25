@@ -423,7 +423,7 @@ class BitGameSystem extends BitBase {
 			$usersValidate = $gBitSystem->isFeatureActive( 'users_validate_user' );
 			$gBitSystem->setConfig( 'users_validate_user', FALSE );
 			// create new user
-			$reg = $pParamHash;
+			$reg = array( 'real_name' => $pParamHash['real_name'], 'email'=>$pParamHash['email'] );
 			if( empty( $reg['password'] ) ){
 				$reg['password'] = $gBitUser->genPass( 9 );
 			}
