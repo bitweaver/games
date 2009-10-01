@@ -1,5 +1,5 @@
 <?php
-// $Header: /cvsroot/bitweaver/_bit_games/admin/admin_games_inc.php,v 1.1 2009/09/15 14:54:44 wjames5 Exp $
+// $Header: /cvsroot/bitweaver/_bit_games/admin/admin_games_inc.php,v 1.2 2009/10/01 18:48:32 wjames5 Exp $
 
 require_once( GAMES_PKG_PATH.'BitGameSystem.php' );
 
@@ -47,8 +47,9 @@ foreach( $gBitSystem->mPackages as $pkg ){
 		// not included
 		$game['package'] = $pkg['name'];
 		// request to store 
-		if( !empty( $_REQUEST['games'] ) && in_array( $game['type'], $_REQUEST['games'] ) ){
-			$game['active'] = TRUE;
+		if( !empty( $_REQUEST['games_settings'] ) ){
+			// get new setting
+			$game['active'] = ( !empty( $_REQUEST['games'] ) && in_array( $game['type'], $_REQUEST['games'] ) )?TRUE:FALSE;
 		}
 		$gameSystem->registerGameType( $game );
 		array_push( $games, $game ); 
