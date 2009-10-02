@@ -1,6 +1,25 @@
 <?php
 /**
+* $Header: /cvsroot/bitweaver/_bit_games/BitGameSystem.php,v 1.3 2009/10/02 18:51:04 wjames5 Exp $
+* $Id: BitGameSystem.php,v 1.3 2009/10/02 18:51:04 wjames5 Exp $
+*/
+
+/**
 * Game is a abstract factory class implemented by Game plugins
+*/
+
+/**
+* Copyright (c) 2009 Citizens Union Foundation
+* Funding for the development of this package was provided by the John S. and James L. Knight Foundation.
+* All Rights Reserved. See below for details and a complete list of authors.
+* Licensed under the GNU GENERAL PUBLIC LICENSE. See http://www.gnu.org/copyleft/gpl.html for details 
+*
+* Developed by Tekimaki LLC http://tekimaki.com
+* Date created 2009/9/1
+*
+* @author Will James <will@tekimaki.com>
+* @version $Revision: 1.3 $ $Date: 2009/10/02 18:51:04 $ $Author: wjames5 $
+* @class BitGameSystem
 */
 
 require_once( KERNEL_PKG_PATH.'BitBase.php' );

@@ -1,8 +1,8 @@
 <?php
-// $Header: /cvsroot/bitweaver/_bit_games/edit_score.php,v 1.1 2009/09/15 14:54:44 wjames5 Exp $
+// $Header: /cvsroot/bitweaver/_bit_games/edit_score.php,v 1.2 2009/10/02 18:51:04 wjames5 Exp $
 // Copyright (c) 2004 bitweaver Games
 // All Rights Reserved. See copyright.txt for details and a complete list of authors.
-// Licensed under the GNU LESSER GENERAL PUBLIC LICENSE. See license.txt for details.
+// Licensed under the GNU LESSER GENERAL PUBLIC LICENSE. See http://www.gnu.org/copyleft/lesser.html for details.
 
 // Initialization
 require_once( '../bit_setup_inc.php' );
