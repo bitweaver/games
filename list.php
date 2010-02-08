@@ -1,10 +1,10 @@
 <?php
-// $Header: /cvsroot/bitweaver/_bit_games/list.php,v 1.2 2009/10/01 18:53:05 wjames5 Exp $
+// $Header: /cvsroot/bitweaver/_bit_games/list.php,v 1.3 2010/02/08 21:37:31 wjames5 Exp $
 // Copyright (c) 2004 bitweaver Games
 // All Rights Reserved. See copyright.txt for details and a complete list of authors.
 // Licensed under the GNU LESSER GENERAL PUBLIC LICENSE. See http://www.gnu.org/copyleft/lesser.html for details.
 // Initialization
-require_once( '../bit_setup_inc.php' );
+require_once( '../kernel/setup_inc.php' );
 
 // Is package installed and enabled
 $gBitSystem->verifyPackage( 'games' );
