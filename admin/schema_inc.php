@@ -1,6 +1,6 @@
 <?php
 /**
- * @version $Header: /cvsroot/bitweaver/_bit_games/admin/schema_inc.php,v 1.1 2009/09/15 14:54:44 wjames5 Exp $
+ * @version $Header: /cvsroot/bitweaver/_bit_games/admin/schema_inc.php,v 1.2 2010/04/17 22:46:08 wjames5 Exp $
  * @package games
  */
 $tables = array(
@@ -65,6 +65,5 @@ $gBitInstaller->registerPreferences( GAMES_PKG_NAME, array(
 
 // Requirements
 $gBitInstaller->registerRequirements( GAMES_PKG_NAME, array(
-	'liberty' => array( 'min' => '2.1.0' ),
+	'liberty' => array( 'min' => '2.1.4' ),
 ));
-?>
