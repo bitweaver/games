@@ -1,7 +1,7 @@
 <?php
 /**
-* $Header: /cvsroot/bitweaver/_bit_games/BitGameSystem.php,v 1.3 2009/10/02 18:51:04 wjames5 Exp $
-* $Id: BitGameSystem.php,v 1.3 2009/10/02 18:51:04 wjames5 Exp $
+* $Header$
+* $Id$
 */
 
 /**
@@ -18,7 +18,7 @@
 * Date created 2009/9/1
 *
 * @author Will James <will@tekimaki.com>
-* @version $Revision: 1.3 $ $Date: 2009/10/02 18:51:04 $ $Author: wjames5 $
+* @version $Revision$
 * @class BitGameSystem
 */
 

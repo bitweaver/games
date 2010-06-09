@@ -1,7 +1,7 @@
 <?php
 /**
-* $Header: /cvsroot/bitweaver/_bit_games/BitGame.php,v 1.2 2009/10/02 18:51:04 wjames5 Exp $
-* $Id: BitGame.php,v 1.2 2009/10/02 18:51:04 wjames5 Exp $
+* $Header$
+* $Id$
 */
 
 /**
@@ -14,7 +14,7 @@
 * Date created 2009/9/1
 *
 * @author Will James <will@tekimaki.com>
-* @version $Revision: 1.2 $ $Date: 2009/10/02 18:51:04 $ $Author: wjames5 $
+* @version $Revision$
 * @class BitGame
 */
 require_once( GAMES_PKG_PATH.'BitGameSystem.php');

@@ -1,6 +1,6 @@
 <?php
 /**
- * $Header: /cvsroot/bitweaver/_bit_games/remove.php,v 1.3 2010/02/08 21:37:31 wjames5 Exp $
+ * $Header$
  */
 
 /**

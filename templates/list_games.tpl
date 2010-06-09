@@ -1,4 +1,4 @@
-{* $Header: /cvsroot/bitweaver/_bit_games/templates/list_games.tpl,v 1.1 2009/09/15 14:54:44 wjames5 Exp $ *}
+{* $Header$ *}
 {strip}
 <div class="floaticon">{bithelp}</div>
 

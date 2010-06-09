@@ -1,6 +1,6 @@
 <?php
 /**
- * @version $Header: /cvsroot/bitweaver/_bit_games/admin/schema_inc.php,v 1.2 2010/04/17 22:46:08 wjames5 Exp $
+ * @version $Header$
  * @package games
  */
 $tables = array(

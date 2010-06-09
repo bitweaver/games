@@ -1,5 +1,5 @@
 <?php
-// $Header: /cvsroot/bitweaver/_bit_games/list.php,v 1.3 2010/02/08 21:37:31 wjames5 Exp $
+// $Header$
 // Copyright (c) 2004 bitweaver Games
 // All Rights Reserved. See copyright.txt for details and a complete list of authors.
 // Licensed under the GNU LESSER GENERAL PUBLIC LICENSE. See http://www.gnu.org/copyleft/lesser.html for details.

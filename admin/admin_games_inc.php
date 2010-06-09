@@ -1,5 +1,5 @@
 <?php
-// $Header: /cvsroot/bitweaver/_bit_games/admin/admin_games_inc.php,v 1.2 2009/10/01 18:48:32 wjames5 Exp $
+// $Header$
 
 require_once( GAMES_PKG_PATH.'BitGameSystem.php' );
 
