@@ -59,7 +59,7 @@ class BitGameSystem extends BitBase {
 	 * @return void
 	 */
 	function BitGameSystem( $pGameType = NULL ) {
-		BitBase::BitBase();
+		parent::__construct();
 		if( !empty( $pGameType ) && $gameType = $this->isActiveGameType( $pGameType ) ){
 			global $gBitSystem;
 			$game = $this->mGameTypes[ $pGameType ];

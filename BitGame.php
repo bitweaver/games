@@ -44,7 +44,7 @@ class BitGame extends BitBase {
 	protected $mDisplayTemplate;
 
 	function __construct(){
-		BitBase::BitBase();
+		parent::__construct();
 		$this->mGameSettings = BitGameSystem::loadGameTypeSettings( $this->getGameType() );
 		$this->mGameTitle = $this->getGameSetting( 'title' ); 
 	}
