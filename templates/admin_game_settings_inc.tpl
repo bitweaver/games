@@ -1,5 +1,5 @@
 {strip}
-<div class="row">
+<div class="control-group">
 	{formfeedback warning=$errors.title}
 	{formlabel label="Title" for="title"}
 	{forminput}
@@ -7,7 +7,7 @@
 	{/forminput}
 </div>
 
-<div class="row">
+<div class="control-group">
 	{formlabel label="Summary" for="summary"}
 	{forminput}
 		<input type="text" size="50" name="games[{$game.type}][summary]" id="summary" value="{$game.summary|escape}" />
@@ -15,7 +15,7 @@
 	{/forminput}
 </div>
 
-<div class="row">
+<div class="control-group">
 	{include file="bitpackage:games/edit_format.tpl" game=$game format_guid_variable="games[`$game.type`][format_guid]"}
 	{formlabel label="Description" for="description"}
 	{forminput}
@@ -24,7 +24,7 @@
 	{/forminput}
 </div>
 
-<div class="row">
+<div class="control-group">
 	{formlabel label="Instructions" for="instructions"}
 	{forminput}
 	{textarea id="instructions" name="games[`$game.type`][instructions]" noformat="y"}{$game.instructions}{/textarea}

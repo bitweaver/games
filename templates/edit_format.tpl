@@ -10,7 +10,7 @@
 	{/if}
 {/foreach}
 {if $numformat > 1 || $format_options}
-	<div class="row">
+	<div class="control-group">
 		{formfeedback error=$errors.format}
 		{formlabel label="Content Format"}
 		{foreach name=formatPlugins from=$gLibertySystem->mPlugins item=plugin key=guid}

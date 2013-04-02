@@ -28,7 +28,7 @@
 						<input type="hidden" name="games[game_id]" value="{$gContent->mInfo.game_id}" />
 						{formfeedback warning=$errors.store}
 
-						<div class="row">
+						<div class="control-group">
 							{formfeedback warning=$errors.title}
 							{formlabel label="Title" for="title"}
 							{forminput}
@@ -36,7 +36,7 @@
 							{/forminput}
 						</div>
 
-						<div class="row">
+						<div class="control-group">
 							{formlabel label="Description" for="description"}
 							{forminput}
 								<input type="text" size="50" maxlength="160" name="games[description]" id="description" value="{$gContent->mInfo.description|escape}" />
@@ -49,7 +49,7 @@
 						{* any simple service edit options *}
 						{include file="bitpackage:liberty/edit_services_inc.tpl" serviceFile="content_edit_mini_tpl"}
 
-						<div class="row submit">
+						<div class="control-group submit">
 							<input type="submit" name="preview" value="{tr}Preview{/tr}" />
 							<input type="submit" name="save_games" value="{tr}Save{/tr}" />
 						</div>
