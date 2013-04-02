@@ -3,10 +3,10 @@
 	<div class="floaticon">
 		{if $print_page ne 'y'}
 			{if $gContent->hasUpdatePermission()}
-				<a title="{tr}Edit this games{/tr}" href="{$smarty.const.GAMES_PKG_URL}edit.php?game_id={$gContent->mInfo.game_id}">{biticon ipackage="icons" iname="accessories-text-editor" iexplain="Edit Games"}</a>
+				<a title="{tr}Edit this games{/tr}" href="{$smarty.const.GAMES_PKG_URL}edit.php?game_id={$gContent->mInfo.game_id}">{booticon iname="icon-edit" ipackage="icons" iexplain="Edit Games"}</a>
 			{/if}
 			{if $gContent->hasExpungePermission()}
-				<a title="{tr}Remove this games{/tr}" href="{$smarty.const.GAMES_PKG_URL}remove_games.php?game_id={$gContent->mInfo.game_id}">{biticon ipackage="icons" iname="edit-delete" iexplain="Remove Games"}</a>
+				<a title="{tr}Remove this games{/tr}" href="{$smarty.const.GAMES_PKG_URL}remove_games.php?game_id={$gContent->mInfo.game_id}">{booticon iname="icon-trash" ipackage="icons" iexplain="Remove Games"}</a>
 			{/if}
 		{/if}<!-- end print_page -->
 	</div><!-- end .floaticon -->
