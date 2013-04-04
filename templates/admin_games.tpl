@@ -42,7 +42,7 @@
 		{/jstab}
 
 		<div class="control-group submit">
-			<input type="submit" name="games_settings" value="{tr}Change Preferences{/tr}" />
+			<input type="submit" class="btn" name="games_settings" value="{tr}Change Preferences{/tr}" />
 		</div>
 
 	{/jstabs}
