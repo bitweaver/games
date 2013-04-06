@@ -46,7 +46,7 @@
 							&nbsp;&nbsp;
 						{/if}
 					{/if}
-					{formhelp note=`$plugin.edit_help`}
+					{formhelp note=$plugin.edit_help}
 				{/forminput}
 			{/if}
 		{/foreach}

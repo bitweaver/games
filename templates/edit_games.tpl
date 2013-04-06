@@ -6,7 +6,7 @@
 	{if $smarty.request.preview}
 		<h2>Preview {$gContent->mInfo.title|escape}</h2>
 		<div class="preview">
-			{include file="bitpackage:games/games_display.tpl" page=`$gContent->mInfo.game_id`}
+			{include file="bitpackage:games/games_display.tpl" page=$gContent->mInfo.game_id}
 		</div>
 	{/if}
 
