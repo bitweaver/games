@@ -1,5 +1,5 @@
 {strip}
-	<a class="dropdown-toggle" data-toggle="dropdown" href="#"> {tr}{$packageMenuTitle}{/tr} <b class="caret"></b></a>
+{if $packageMenuTitle}<a class="dropdown-toggle" data-toggle="dropdown" href="#"> {tr}{$packageMenuTitle}{/tr} <b class="caret"></b></a>{/if}
 <ul class="{$packageMenuClass}">
 		{if $gBitUser->hasPermission( 'p_games_view')}
 			<li><a class="item" href="{$smarty.const.GAMES_PKG_URL}list.php">{tr}List Games{/tr}</a></li>
