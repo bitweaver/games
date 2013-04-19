@@ -44,7 +44,7 @@
 							{/forminput}
 						</div>
 
-						{textarea name="games[edit]"}{$gContent->mInfo.data}{/textarea}
+						{textarea name="games[edit]" edit=$gContent->mInfo.data}
 
 						{* any simple service edit options *}
 						{include file="bitpackage:liberty/edit_services_inc.tpl" serviceFile="content_edit_mini_tpl"}

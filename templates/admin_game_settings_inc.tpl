@@ -19,7 +19,7 @@
 	{include file="bitpackage:games/edit_format.tpl" game=$game format_guid_variable="games[`$game.type`][format_guid]"}
 	{formlabel label="Description" for="description"}
 	{forminput}
-		{textarea id="description" name="games[`$game.type`][description]" noformat="y"}{$game.description}{/textarea}
+		{textarea id="description" name="games[`$game.type`][description]" noformat="y" edit=$game.description}
 		{formhelp note="Description of the game."}
 	{/forminput}
 </div>
@@ -27,7 +27,7 @@
 <div class="control-group">
 	{formlabel label="Instructions" for="instructions"}
 	{forminput}
-	{textarea id="instructions" name="games[`$game.type`][instructions]" noformat="y"}{$game.instructions}{/textarea}
+	{textarea id="instructions" name="games[`$game.type`][instructions]" noformat="y" edit=$game.instructions}
 		{formhelp note="Instructions and rules of the game."}
 	{/forminput}
 </div>
