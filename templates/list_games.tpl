@@ -11,7 +11,7 @@
 		{minifind sort_mode=$sort_mode}
 
 
-			<table class="data">
+			<table class="table data">
 				<tr>
 					<th>{smartlink ititle="Title" isort=title offset=$control.offset}</th>
 
