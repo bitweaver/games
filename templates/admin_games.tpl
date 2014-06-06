@@ -6,7 +6,7 @@
 					{tr}Games with checkmarks are currently enabled, meaning they can be played, games without are disabled.  To enable or disable a game, check or uncheck it, and click the 'Change Preferences' button.{/tr}
 				</p>
 				{foreach key=name item=game from=$games}
-						<div class="control-group">
+						<div class="form-group">
 							<div class="formlabel">
 								<label for="game_{$game.title}">{biticon igame=$name iname="game_`$game.title`" iexplain="`$game.title`" iforce=icon}</label>
 							</div>
@@ -30,7 +30,7 @@
 			{legend legend="List Settings"}
 				<input type="hidden" name="page" value="{$page}" />
 				{foreach from=$formGamesLists key=item item=output}
-					<div class="control-group">
+					<div class="form-group">
 						{formlabel label=$output.label for=$item}
 						{forminput}
 							{html_checkboxes name="$item" values="y" checked=$gBitSystem->getConfig($item) labels=false id=$item}
@@ -41,7 +41,7 @@
 			{/legend}
 		{/jstab}
 
-		<div class="control-group submit">
+		<div class="form-group submit">
 			<input type="submit" class="btn btn-default" name="games_settings" value="{tr}Change Preferences{/tr}" />
 		</div>
 
